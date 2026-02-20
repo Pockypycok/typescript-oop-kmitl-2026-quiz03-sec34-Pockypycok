@@ -1,1 +1,6 @@
-export class Car {}
+expoort class Car {
+    static 
+}
+
+  )
+  )
