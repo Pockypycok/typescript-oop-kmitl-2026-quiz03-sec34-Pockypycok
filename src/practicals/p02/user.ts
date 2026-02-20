@@ -6,7 +6,10 @@ export class User {}
   user.setAge("");
   user.getFullName();
    comment user.getFullNName());
+get FullNam();string{
 
+    
+}
 
 
   )
