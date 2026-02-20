@@ -24,7 +24,4 @@ export class User {
     getFullName(): string {
         return `${this.firstname} ${this.lastname}`.trim();
     }
-}
-
-
- 
+} 
