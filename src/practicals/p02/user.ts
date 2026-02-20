@@ -1,23 +1,30 @@
-export class User {}
- static main {} 
- const user = new User();
-  user.setFistName ("");
-  user.setLastName ("");
-  user.setAge("");
-  user.getFullName();
-   comment user.getFullNName());
-get FullNam();string{
+export class User {
+    private firstname: string;
+    private lastname: string;
+    private age: number;
+    static BIRTH_YEAR: number = 1900;
 
-    
+    constructor() {
+        this.firstname = "";
+        this.lastname = "";
+        this.age = 0;
+    }
+    setFirstname(firstname: string): void {
+        this.firstname = firstname;
+    }
+    setLastname(lastname: string): void {
+        this.lastname = lastname;
+    }
+    setAge(age: number): void {
+        this.age = age;
+    }
+    getAge(): number {
+        return this.age;
+    }
+    getFullName(): string {
+        return `${this.firstname} ${this.lastname}`.trim();
+    }
 }
-
-
-  )
-  )
-
-
-  )
-
 
 
  
