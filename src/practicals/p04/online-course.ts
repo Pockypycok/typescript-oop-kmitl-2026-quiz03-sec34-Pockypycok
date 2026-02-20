@@ -36,3 +36,4 @@ console.log(course.getCourseStatus());
 
 console.log(course.enroll());
 // false  (Course Closed)
+
